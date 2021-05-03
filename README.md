@@ -26,7 +26,7 @@ A Tenant is a consumer of the API you are going to write. A db/seeds.rb file is 
 ## Extra credit features you might consider:
 
 *   Allow adding a query parameter to the API request to select only Questions that contain the query term(s).  Return an appropriate HTML status code if no results are found.
-*   Add a piece of middleware to throttle API requests on a per-Tenant basis. After the first 100 requests per day, throttle to 1 request per 10 seconds.
+*   After the first 100 requests per day, throttle API requests on a per-Tenant basis to 1 request per 10 seconds. Feel free to do this in the application middleware or in the codebase.
 
 ## Project Setup
 
